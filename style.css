@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  --ff-primary: "Rubik", sans-serif;
+  --fw-light: 300;
+  --fw-normal: 400;
+  --fw-bold: 500;
+  --fs-body: 1.125rem;
+  --clr-profile: hsl(246, 80%, 60%);
+  --clr-work: hsl(15, 100%, 70%);
+  --clr-play: hsl(195, 74%, 62%);
+  --clr-study: hsl(348, 100%, 68%);
+  --clr-exercise: hsl(145, 58%, 55%);
+  --clr-social: hsl(264, 64%, 52%);
+  --clr-self-care: hsl(43, 84%, 65%);
+  --clr-neutral-800: hsl(226, 43%, 10%);
+  --clr-neutral-600: hsl(235, 46%, 20%);
+  --clr-neutral-400: hsl(235, 45%, 61%);
+  --clr-neutral-200: hsl(236, 100%, 87%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: var(--ff-primary);
+  background-color: var(--clr-neutral-800);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+main {
+  margin: 8rem 0 8rem 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+.head-box {
+  height: 4rem;
+}
+.main-box {
+  border-radius: 1.2rem 1.2rem 1.1rem 1.1rem;
+  background-color: var(--clr-neutral-600);
+  padding: 2.8rem;
+  display: flex;
+  flex-direction: column;
+}
+.box-1 {
+  background-color: var(--clr-work);
+  width: 25.5rem;
+  border-radius: 1.2rem;
+}
+
+.box-2 {
+  background-color: var(--clr-play);
+  width: 25.5rem;
+  border-radius: 1.2rem;
+}
+.box-3 {
+  background-color: var(--clr-study);
+  width: 25.5rem;
+  border-radius: 1.2rem;
+}
+.box-4 {
+  background-color: var(--clr-exercise);
+  width: 25.5rem;
+  border-radius: 1.2rem;
+}
+.box-5 {
+  background-color: var(--clr-social);
+  width: 25.5rem;
+  border-radius: 1.2rem;
+}
+.box-6 {
+  background-color: var(--clr-self-care);
+  width: 25.5rem;
+  border-radius: 1.2rem;
+}
+.top-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h3 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: white;
+}
+span {
+  margin: 2.8rem 0 0.8rem 0;
+  font-size: 5.6rem;
+  font-weight: var(--fw-light);
+}
+p{
+  font-size: 1.6rem;
+  color: var(--clr-neutral-200);
+}
